@@ -1,0 +1,213 @@
+
+* { padding: 0; margin: 0; outline: 0; }
+
+body {
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: 'VT323';
+    text-align: left;
+}
+
+a img {
+  border: 0;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+video {
+  position: fixed;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+
+  z-index: -10;
+}
+
+
+
+.shell {
+  width: 820px;
+  margin: 0 auto;
+ }
+
+#principal li {
+  margin-left: 35px;
+  margin-right: 30px;
+  color: #002E70;
+}
+
+#pagina {
+  padding-bottom: 15px;
+}
+
+
+#encabezado {
+  width: 100%;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+
+#logo {
+  text-transform: uppercase;
+  line-height: 1;
+  padding-bottom: 15px;
+}
+
+#logo h1 {
+font-family:'VT323';
+font-weight: bold;
+font-size: 60px;
+color: #FFFFFF;
+ }
+
+#logo h1 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#logo h1 a span {
+   color: #8C30FF;
+}
+
+#logo .descripcion {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+
+
+#navsup {
+  line-height: 50px;
+  background: url(../../img/marco2.png);
+ }
+
+#navsup .bg {
+  position: relative;
+  height: 50px;
+  width: 900px;
+}
+
+#navsup ul li {
+  float: left;
+  display: inline;
+  list-style-type: none;
+  height: 46px;
+}
+
+#navsup ul li a {
+  float: left;
+  display: inline;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  padding: 0 62px;
+}
+
+
+
+
+#piedepagina .copy {
+  font-size: 20px;
+  color: #D9D9D9;
+  text-transform: uppercase;
+  text-align: right;
+   padding: 20% 1%
+}
+
+#piedepagina .copy a {
+  color: #FFFFFF;
+}
+
+#principal h3:hover { text-decoration: underline; }
+
+#principal .fila-articulos .articulo {
+  padding: 1px 100px 120px 40px;
+  background: url(../../img/marco4.png) no-repeat;
+}
+
+#principal .fila-articulos .imagen {
+  border-style: double;
+  float: left;
+  display: inline;
+  top: 20px;
+  width: 240px;
+  height: 120px;
+}
+
+#principal .fila-articulos .imagen img {
+  width: 240px;
+  height: 120px;
+}
+
+#principal .fila-articulos .cnt {
+  float: right;
+  display: inline;
+  width: 420px;
+  font-size: 18px;
+}
+
+#principal .fila-articulos h4 {
+  margin-top: 0;
+  line-height: 20px;
+  font-size: 25px
+}
+
+#principal .fila-articulos h4 a {
+  color: #000000;
+}
+
+#principal .fila-articulos h5 a {
+  font-size:22px;
+  color: #3262A8;
+}
+
+#principal .bg-articulos {
+  background: url(../../img/marcoarttop.png) no-repeat 0 0;
+   position: relative;
+   height: 5496px;
+}
+
+#principal .texto-articulo h1 {
+  margin-left: 30px;
+}
+
+#principal .texto-articulo p {
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+#principal .imagen-articulo {
+  border-style: double;
+  margin-left: 60px;
+  float: left;
+  display: inline;
+  top: 20px;
+  width: 680px;
+  height: 383px;
+}
+
+.trailer {
+  margin-left: 60px;
+  border-style: double;
+  float: left;
+  display: inline;
+  top: 20px;
+  width: 700px;
+  height: 400px;
+}
